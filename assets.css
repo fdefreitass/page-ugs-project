@@ -1,15 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins:wght@400;600;700&display=swap');
+/*
+font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
 :root {
     --color-azul: #008AB3;
     --color-black2: #3F3F3F;
     --color-black1: #121212;
     --color-white: #fff;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins:wght@400;600;700&display=swap');
-/*
-font-family: 'Hedvig Letters Serif', serif;
-font-family: 'Poppins', sans-serif;
-*/
 
 * {
     box-sizing: border-box;
@@ -117,8 +117,8 @@ header a:hover {
 
 .titles-home img{
     object-fit: contain;
-    height: 200px;
-    width: 30%;
+    height: 100px;
+    width: 15%;
 }
 .titles-home ul {
     gap: 10px;

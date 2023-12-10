@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets.css">
+    <link rel="stylesheet" media="screen and (max-width: 1050px)" href="midia01.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="./midia02.css">
     <title>Uruguaiana Games Shop</title>
 </head>
 <body>
@@ -48,7 +50,7 @@
         <section class="home-page-2">
             <div class="content-home">
                 <div class="midia">
-                    <img src="https://wallpapers.com/images/hd/pacman-55tu2yhj3e66immr.jpg" alt="Imagem-de-jogo">
+                    <img id="pacman" src="https://wallpapers.com/images/hd/pacman-55tu2yhj3e66immr.jpg" alt="Imagem-de-jogo">
                 </div>
                 <div class="titles-home">
                     <h2>Quais plataformas atendemos?</h2>
@@ -65,51 +67,53 @@
             </div>
         </section>
         <section class="home-page-3">
-            <div id="form-user" class="content-form">
-                <form>
-                    <h3>Fale conosco</h3>
-                    <div>
-                        <label class="labels" for="name-user">Seu Nome</label>
-                        <input id="name-user" type="text" placeholder="Digite seu nome" class="inputs" />
-                    </div>
-                    <div>
-                        <label class="labels" for="email-user">Seu Email</label>
-                        <input id="email-user" type="email" placeholder="Digite seu melhor email" class="inputs" />
-                    </div>
-                    <div>
-                        <label class="labels" for="cell-user">Seu Celular</label>
-                        <input id="cell-user" type="tel" placeholder="Seu telefone (Opcional)" class="inputs" />
-                    </div>
-                    <textarea class="inputs" name="descrição" id="descrição" cols="15" rows="4" placeholder="Sua Mensagem..."></textarea>
-                    <button type="submit">Enviar Mensagem</button>
-                </form>
-            </div>
-            <div class="social-user">
-                <div class="div-redes">
-                    <h3>Nossas redes sociais</h3>
-                <ul>
-                    <li>
-                        <a href="#" title="Siga-nos no Facebook">
-                            <img src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-facebook-512.png" alt="facebook-logo">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="Siga-nos no Instagram">
-                            <img src="https://static.vecteezy.com/system/resources/previews/018/930/692/original/instagram-logo-instagram-icon-transparent-free-png.png" alt="Instagram-logo">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="Siga-nos no You-Tube">
-                            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-icon.png" alt="You-Tube-logo">
-                        </a>
-                    </li>
-                </ul>
+            <div class="form-content">
+                <div id="form-user" class="content-form">
+                    <form>
+                        <h3>Fale conosco</h3>
+                        <div>
+                            <label class="labels" for="name-user">Seu Nome</label>
+                            <input id="name-user" type="text" placeholder="Digite seu nome" class="inputs" />
+                        </div>
+                        <div>
+                            <label class="labels" for="email-user">Seu Email</label>
+                            <input id="email-user" type="email" placeholder="Digite seu melhor email" class="inputs" />
+                        </div>
+                        <div>
+                            <label class="labels" for="cell-user">Seu Celular</label>
+                            <input id="cell-user" type="tel" placeholder="Seu telefone (Opcional)" class="inputs" />
+                        </div>
+                        <textarea class="inputs" name="descrição" id="descrição" cols="15" rows="4" placeholder="Sua Mensagem..."></textarea>
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
                 </div>
-                <div class="location">
-                    <h3>Venha até nós</h3>
-                    <div class="info-location">
-                        <img for="local" src="https://cdn-icons-png.flaticon.com/512/3722/3722026.png" alt="localizacao">
-                    <h4>Avenida Santa Izabel, 2557<br>Uruguaiana-RS<br>97500-000</h4>
+                <div class="social-user">
+                    <div class="div-redes">
+                        <h3>Nossas redes sociais</h3>
+                    <ul>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook">
+                                <img src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-facebook-512.png" alt="facebook-logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram">
+                                <img src="https://static.vecteezy.com/system/resources/previews/018/930/692/original/instagram-logo-instagram-icon-transparent-free-png.png" alt="Instagram-logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no You-Tube">
+                                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-icon.png" alt="You-Tube-logo">
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="location">
+                        <h3>Venha até nós</h3>
+                        <div class="info-location">
+                            <img for="local" src="https://cdn-icons-png.flaticon.com/512/3722/3722026.png" alt="localizacao">
+                        <h4>Avenida Santa Izabel, 2557<br>Uruguaiana-RS<br>97500-000</h4>
+                        </div>
                     </div>
                 </div>
             </div>
