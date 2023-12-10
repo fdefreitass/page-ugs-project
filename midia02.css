@@ -62,3 +62,8 @@ footer {
 .content-fot h4 {
     font-size: 0.9rem;
 }
+
+.social-user img {
+    height: 50px;
+    object-fit: cover;
+}
