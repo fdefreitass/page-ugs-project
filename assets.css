@@ -1,0 +1,257 @@
+:root {
+    --color-azul: #008AB3;
+    --color-black2: #3F3F3F;
+    --color-black1: #121212;
+    --color-white: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins:wght@400;600;700&display=swap');
+/*
+font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--color-black2);
+}
+
+/*Header*/
+
+header {
+    height: 80px;
+    background-color: var(--color-black1);
+}
+
+header h1 {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+header li,
+.titles-home a {
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-black1);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+header a,
+.titles-home a {
+    text-decoration: none;
+    background-color: yellow;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+
+header a:hover {
+    background-color: #fff;
+}
+.titles-home a:hover {
+    background-color: #fff;
+}
+
+.header-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+
+.home-page img,
+.home-page-2 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.home-page,
+.home-page-2 {
+    margin-top: 4rem;
+    height: 400px;
+    background-color: var(--color-black1);
+}
+
+.home-page h2,
+.home-page-2 h2 {
+    text-align: center;
+    background-color: #008AB3;
+    color: var(--color-white);
+    border-radius: 1rem;
+}
+
+.titles-home ul {
+    text-align: center;
+}
+
+.home-page p,
+.home-page-2 p {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.home-page p {
+    margin-bottom: 1rem;
+}
+
+.titles-home {
+    width: 50%;
+    margin: 1rem;
+}
+
+.titles-home img{
+    object-fit: contain;
+    height: 200px;
+    width: 30%;
+}
+.titles-home ul {
+    gap: 10px;
+}
+
+.titles-home li {
+    display: inline;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.content-home {
+    display: flex;
+}
+
+.home-page-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    background-color: var(--color-black1);
+    margin-top: 4rem;
+}
+
+.content-form,
+.contact-user,
+.social-user {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: var(--color-azul);
+    border-radius: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    width: 100%;
+}
+
+form h3,
+.social-user h3 {
+    text-align: center;
+    color: var(--color-black1);
+    background-color: var(--color-white);
+    border-radius: 1.3rem;
+    padding: 0.3rem;
+}
+
+.social-user h3 { 
+    margin-bottom: 1rem;
+}
+
+.info-location {
+    display: flex;
+    align-items: center;
+}
+
+.info-location h4 {
+    text-align: center;
+}
+
+.inputs {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0.3rem;
+    border: none;
+    outline: none;
+}
+
+.inputs:focus {
+    outline: #008AB3;
+}
+
+.labels {
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+button[type="submit"]{
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-black1);
+    color: var(--color-white);
+    cursor: pointer;
+    transition: .3s;
+}
+
+button[type="submit"]:hover{
+    background-color: yellow;
+    color: #121212;
+}
+
+.social-user img {
+    height: 80px;
+    object-fit: cover;
+}
+
+.social-user a {
+    text-decoration: none;
+}
+
+.social-user li {
+    display: inline;
+    align-items: center;
+    margin: 10px;
+}
+
+
+/*Footer*/
+
+footer {
+    height: 100px;
+    background-color: #008AB3;
+    margin-top: 5rem;
+}
+
+.content-fot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+.content-fot h6,
+.content-fot h5,
+.content-fot h4 {
+    margin-top: 5px;
+    color: var(--color-white);
+}
