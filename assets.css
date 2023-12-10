@@ -152,6 +152,10 @@ header a:hover {
     border-radius: 1rem;
 }
 
+.form-content {
+    display: flex;
+}
+
 form {
     display: flex;
     flex-direction: column;
