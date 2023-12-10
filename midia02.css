@@ -1,9 +1,19 @@
 header .navbar {
     display: none;
 }
+
+header h1 {
+    font-size: 1.5rem;
+}
+
 .header-page {
     justify-content: center;
 }
+
+.titles-home {
+    width: 90%;
+}
+
 .home-page,
 .home-page-2{
     height: 800px;
@@ -14,7 +24,7 @@ header .navbar {
     align-items: center;
 }
 #pacman{
-    margin: 2rem  0rem 0rem 4rem;
+    margin: 2rem  0rem 0rem 2.5rem;
 }
 .home-page img{
     width: 100%;
@@ -37,4 +47,18 @@ header .navbar {
 
 .home-page-3 {
     height: 1000px;
+}
+
+footer {
+    height: 120px;
+}
+
+.content-fot h6 {
+    font-size: 0.6rem;
+}
+.content-fot h5 {
+    font-size: 0.7rem;
+}
+.content-fot h4 {
+    font-size: 0.9rem;
 }
